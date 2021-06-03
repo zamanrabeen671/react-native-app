@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import CarsList from './components/CarsList';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Team 60 Is Here</Text>
-      <Image source={{ uri: "https://image.shutterstock.com/image-vector/abstract-futuristic-cyberspace-binary-code-260nw-740523562.jpg" }} style={{ width: 305, height: 159 }} />
+      <Header />
+      <CarsList />
       <StatusBar style="auto" />
     </View>
   );
