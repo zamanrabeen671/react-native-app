@@ -13,7 +13,7 @@ export default function App() {
     </View>
   );
 }
-
+//commit and pull request
 const styles = StyleSheet.create({
   container: {
     flex: 1,
