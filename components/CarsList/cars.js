@@ -1,20 +1,20 @@
 export default [{
-  name: 'Model S',
+  name: 'DJI FPV Drone',
   tagline: 'Starting at $69,420',
-  image: require('../../assets/images/ModelS.jpeg'),
+  image: require('../../assets/images/drone-1.jpg'),
 }, {
-  name: 'Model 3',
+  name: 'Skydio 2',
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
-  image: require('../../assets/images/Model3.jpeg'),
+  image: require('../../assets/images/drone-2.jpg'),
 }, {
-  name: 'Model X',
+  name: 'DJI Mavic Air 2',
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
-  image: require('../../assets/images/ModelX.jpeg'),
+  image: require('../../assets/images/drone-3.jpeg'),
 }, {
-  name: 'Model Y',
+  name: 'DJI Mavic 2 Pro',
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
-  image: require('../../assets/images/ModelY.jpeg'),
+  image: require('../../assets/images/drone-4.jpg'),
 }];
