@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ImageBackground} from 'react-native';
+import {View, Text, ImageBackground, Alert} from 'react-native';
 import StyledButton from "../StyledButton";
 import styles from './styles';
 
@@ -30,7 +30,7 @@ const CarItem = (props) => {
           type="primary"
           content={"Custom Order"}
           onPress={() => {
-            console.warn("Custom Order was pressed");
+            Alert.alert("Custom Order was pressed");
           }}
         />
 
@@ -38,7 +38,7 @@ const CarItem = (props) => {
           type="secondary"
           content={"Existing Inventory"}
           onPress={() => {
-            console.warn("Existing Inventory was pressed");
+            Alert.alert("Existing Inventory was pressed")
           }}
         />
       </View>
