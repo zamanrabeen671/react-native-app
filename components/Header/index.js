@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <Image style={styles.logo} source={require('../../assets/images/logo.png')} />
-      <TouchableHighlight onPress = {() => Alert.alert('Navigation is not ready')}>
+      <TouchableHighlight onPress = {() => alert('Navigation is not ready')}>
           <Image style={styles.menu} source={require('../../assets/images/menu.png')}  />
       </TouchableHighlight>
       

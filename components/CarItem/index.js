@@ -30,7 +30,7 @@ const CarItem = (props) => {
           type="primary"
           content={"Custom Order"}
           onPress={() => {
-            Alert.alert("Custom Order was pressed");
+            alert("Custom Order was pressed");
           }}
         />
 
@@ -38,7 +38,7 @@ const CarItem = (props) => {
           type="secondary"
           content={"Existing Inventory"}
           onPress={() => {
-            Alert.alert("Existing Inventory was pressed")
+            alert("Existing Inventory was pressed")
           }}
         />
       </View>
